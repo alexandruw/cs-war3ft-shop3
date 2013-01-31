@@ -25,7 +25,13 @@ HU_ULT_Blink( id )
 
 		return;
 	}
-	
+
+	// User can't blink on map with disabled teleport
+	if ( g_bTeleportDisabled )
+	{
+		return;
+	}
+
 	new vOldLocation[3], vNewLocation[3]
 	
 	// Get the player's current location
