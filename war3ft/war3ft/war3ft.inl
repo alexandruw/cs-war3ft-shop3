@@ -423,6 +423,14 @@ public WC3_Init()
 	g_bOrcNadesDisabled		= WC3_MapDisableCheck( "skill_orc_nade.cfg" );
 	g_bGlovesDisabled		= WC3_MapDisableCheck( "item_gloves.cfg" );
 
+	// Let us see if we should disable Teleport <Blink>
+	g_bTeleportDisabled		= WC3_MapDisableCheck( "disable_tp.cfg" );
+	// Let us see if we should disable Teleport <Blink>
+	g_bTeleportDisabled		= WC3_MapDisableCheck( "disable_tp.cfg" );
+
+	// Let us see if we should disable Teleport <Blink>
+	g_bTeleportDisabled		= WC3_MapDisableCheck( "disable_tp.cfg" );
+
 	new szCurMap[32];
 	get_mapname( szCurMap, 31 );
 	WC3_Log( false, "** Map %s started, version: '%s'", szCurMap, WC3FT_VERSION );
