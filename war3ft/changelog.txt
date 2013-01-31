@@ -1,3 +1,5 @@
+forked
+ - Teleport disabled on custom maplist
 v3.0 RC14
  - Bug Fix: [FS#141] Admin command crash fix
  - Bug Fix: Registered cvar twice
